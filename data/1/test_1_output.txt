@@ -1,0 +1,541 @@
+python3 benchmark.py -u 35.236.247.225 -m resnet50_netdef --qps 150.0 --qps-delta 1.0 -f Dataset/ --sla 0.75 --percentile 95 --threads 4
+Pass 1: started
+Pass 1: total batches 5394
+Pass 1: elapsed time 36.664767265319824 s
+Pass 1: desired throughput 150.0 qps
+Pass 1: actual throughput 147.1167118276524 qps
+Pass 1: 25th-percentile 0.029001891613006592 s
+Pass 1: 50th-percentile 0.03389847278594971 s
+Pass 1: 75th-percentile 0.035901546478271484 s
+Pass 1: 95th-percentile 0.03872036933898925 s
+Pass 1: completed
+Pass 2: started
+Pass 2: total batches 5394
+Pass 2: elapsed time 36.367483377456665 s
+Pass 2: desired throughput 151.0 qps
+Pass 2: actual throughput 148.31930887314604 qps
+Pass 2: 25th-percentile 0.028462231159210205 s
+Pass 2: 50th-percentile 0.03330373764038086 s
+Pass 2: 75th-percentile 0.03523498773574829 s
+Pass 2: 95th-percentile 0.03708915710449218 s
+Pass 2: completed
+Pass 3: started
+Pass 3: total batches 5394
+Pass 3: elapsed time 36.126731157302856 s
+Pass 3: desired throughput 152.0 qps
+Pass 3: actual throughput 149.3077238710989 qps
+Pass 3: 25th-percentile 0.028340399265289307 s
+Pass 3: 50th-percentile 0.03325605392456055 s
+Pass 3: 75th-percentile 0.035097479820251465 s
+Pass 3: 95th-percentile 0.03668291568756103 s
+Pass 3: completed
+Pass 4: started
+Pass 4: total batches 5394
+Pass 4: elapsed time 35.889779806137085 s
+Pass 4: desired throughput 153.0 qps
+Pass 4: actual throughput 150.29348268884158 qps
+Pass 4: 25th-percentile 0.02839374542236328 s
+Pass 4: 50th-percentile 0.03336834907531738 s
+Pass 4: 75th-percentile 0.035063982009887695 s
+Pass 4: 95th-percentile 0.03697357177734375 s
+Pass 4: completed
+Pass 5: started
+Pass 5: total batches 5394
+Pass 5: elapsed time 35.65299463272095 s
+Pass 5: desired throughput 154.0 qps
+Pass 5: actual throughput 151.29163918953373 qps
+Pass 5: 25th-percentile 0.02889716625213623 s
+Pass 5: 50th-percentile 0.03360402584075928 s
+Pass 5: 75th-percentile 0.03553420305252075 s
+Pass 5: 95th-percentile 0.037543964385986325 s
+Pass 5: completed
+Pass 6: started
+Pass 6: total batches 5394
+Pass 6: elapsed time 35.43865513801575 s
+Pass 6: desired throughput 155.0 qps
+Pass 6: actual throughput 152.2066788085801 qps
+Pass 6: 25th-percentile 0.02900254726409912 s
+Pass 6: 50th-percentile 0.03380858898162842 s
+Pass 6: 75th-percentile 0.03560614585876465 s
+Pass 6: 95th-percentile 0.03788448572158813 s
+Pass 6: completed
+Pass 7: started
+Pass 7: total batches 5394
+Pass 7: elapsed time 35.24845361709595 s
+Pass 7: desired throughput 156.0 qps
+Pass 7: actual throughput 153.0279897834679 qps
+Pass 7: 25th-percentile 0.0290524959564209 s
+Pass 7: 50th-percentile 0.033977508544921875 s
+Pass 7: 75th-percentile 0.035595476627349854 s
+Pass 7: 95th-percentile 0.03736590147018432 s
+Pass 7: completed
+Pass 8: started
+Pass 8: total batches 5394
+Pass 8: elapsed time 34.99543642997742 s
+Pass 8: desired throughput 157.0 qps
+Pass 8: actual throughput 154.1343829442701 qps
+Pass 8: 25th-percentile 0.029053986072540283 s
+Pass 8: 50th-percentile 0.03411448001861572 s
+Pass 8: 75th-percentile 0.035564303398132324 s
+Pass 8: 95th-percentile 0.03733865022659301 s
+Pass 8: completed
+Pass 9: started
+Pass 9: total batches 5394
+Pass 9: elapsed time 34.76845955848694 s
+Pass 9: desired throughput 158.0 qps
+Pass 9: actual throughput 155.1406092906216 qps
+Pass 9: 25th-percentile 0.029195129871368408 s
+Pass 9: 50th-percentile 0.03399693965911865 s
+Pass 9: 75th-percentile 0.035605669021606445 s
+Pass 9: 95th-percentile 0.03726826906204223 s
+Pass 9: completed
+Pass 10: started
+Pass 10: total batches 5394
+Pass 10: elapsed time 34.60119318962097 s
+Pass 10: desired throughput 159.0 qps
+Pass 10: actual throughput 155.89057783180704 qps
+Pass 10: 25th-percentile 0.029392480850219727 s
+Pass 10: 50th-percentile 0.034245848655700684 s
+Pass 10: 75th-percentile 0.0357518196105957 s
+Pass 10: 95th-percentile 0.037808442115783686 s
+Pass 10: completed
+Pass 11: started
+Pass 11: total batches 5394
+Pass 11: elapsed time 34.33840489387512 s
+Pass 11: desired throughput 160.0 qps
+Pass 11: actual throughput 157.0835924577882 qps
+Pass 11: 25th-percentile 0.029389917850494385 s
+Pass 11: 50th-percentile 0.03432953357696533 s
+Pass 11: 75th-percentile 0.035723090171813965 s
+Pass 11: 95th-percentile 0.03749309778213501 s
+Pass 11: completed
+Pass 12: started
+Pass 12: total batches 5394
+Pass 12: elapsed time 34.12368607521057 s
+Pass 12: desired throughput 161.0 qps
+Pass 12: actual throughput 158.07202035885905 qps
+Pass 12: 25th-percentile 0.029541969299316406 s
+Pass 12: 50th-percentile 0.03437530994415283 s
+Pass 12: 75th-percentile 0.03577786684036255 s
+Pass 12: 95th-percentile 0.03766132593154907 s
+Pass 12: completed
+Pass 13: started
+Pass 13: total batches 5394
+Pass 13: elapsed time 33.91480898857117 s
+Pass 13: desired throughput 162.0 qps
+Pass 13: actual throughput 159.04556625448504 qps
+Pass 13: 25th-percentile 0.029725253582000732 s
+Pass 13: 50th-percentile 0.034555792808532715 s
+Pass 13: 75th-percentile 0.03592860698699951 s
+Pass 13: 95th-percentile 0.03781214952468872 s
+Pass 13: completed
+Pass 14: started
+Pass 14: total batches 5394
+Pass 14: elapsed time 33.69836235046387 s
+Pass 14: desired throughput 163.0 qps
+Pass 14: actual throughput 160.06712563365116 qps
+Pass 14: 25th-percentile 0.03011876344680786 s
+Pass 14: 50th-percentile 0.034812331199645996 s
+Pass 14: 75th-percentile 0.03631269931793213 s
+Pass 14: 95th-percentile 0.03841134309768676 s
+Pass 14: completed
+Pass 15: started
+Pass 15: total batches 5394
+Pass 15: elapsed time 33.48386573791504 s
+Pass 15: desired throughput 164.0 qps
+Pass 15: actual throughput 161.09251071008123 qps
+Pass 15: 25th-percentile 0.030041873455047607 s
+Pass 15: 50th-percentile 0.03486287593841553 s
+Pass 15: 75th-percentile 0.03617656230926514 s
+Pass 15: 95th-percentile 0.038653767108917235 s
+Pass 15: completed
+Pass 16: started
+Pass 16: total batches 5394
+Pass 16: elapsed time 33.33492922782898 s
+Pass 16: desired throughput 165.0 qps
+Pass 16: actual throughput 161.81225294148607 qps
+Pass 16: 25th-percentile 0.030210256576538086 s
+Pass 16: 50th-percentile 0.03497123718261719 s
+Pass 16: 75th-percentile 0.036379992961883545 s
+Pass 16: 95th-percentile 0.038394486904144286 s
+Pass 16: completed
+Pass 17: started
+Pass 17: total batches 5394
+Pass 17: elapsed time 33.12417912483215 s
+Pass 17: desired throughput 166.0 qps
+Pass 17: actual throughput 162.84177125332258 qps
+Pass 17: 25th-percentile 0.030542373657226562 s
+Pass 17: 50th-percentile 0.035237908363342285 s
+Pass 17: 75th-percentile 0.03666102886199951 s
+Pass 17: 95th-percentile 0.039207959175109865 s
+Pass 17: completed
+Pass 18: started
+Pass 18: total batches 5394
+Pass 18: elapsed time 32.92407441139221 s
+Pass 18: desired throughput 167.0 qps
+Pass 18: actual throughput 163.83148490678897 qps
+Pass 18: 25th-percentile 0.030511975288391113 s
+Pass 18: 50th-percentile 0.03521907329559326 s
+Pass 18: 75th-percentile 0.03654879331588745 s
+Pass 18: 95th-percentile 0.038972115516662596 s
+Pass 18: completed
+Pass 19: started
+Pass 19: total batches 5394
+Pass 19: elapsed time 32.843440771102905 s
+Pass 19: desired throughput 168.0 qps
+Pass 19: actual throughput 164.23370613306378 qps
+Pass 19: 25th-percentile 0.030831217765808105 s
+Pass 19: 50th-percentile 0.03553581237792969 s
+Pass 19: 75th-percentile 0.03688156604766846 s
+Pass 19: 95th-percentile 0.03957345485687255 s
+Pass 19: completed
+Pass 20: started
+Pass 20: total batches 5394
+Pass 20: elapsed time 32.54549694061279 s
+Pass 20: desired throughput 169.0 qps
+Pass 20: actual throughput 165.73721427092264 qps
+Pass 20: 25th-percentile 0.030870497226715088 s
+Pass 20: 50th-percentile 0.03552114963531494 s
+Pass 20: 75th-percentile 0.03685349225997925 s
+Pass 20: 95th-percentile 0.03964453935623169 s
+Pass 20: completed
+Pass 21: started
+Pass 21: total batches 5394
+Pass 21: elapsed time 32.38013553619385 s
+Pass 21: desired throughput 170.0 qps
+Pass 21: actual throughput 166.5836140176343 qps
+Pass 21: 25th-percentile 0.031229496002197266 s
+Pass 21: 50th-percentile 0.03575325012207031 s
+Pass 21: 75th-percentile 0.03718996047973633 s
+Pass 21: 95th-percentile 0.03994147777557373 s
+Pass 21: completed
+Pass 22: started
+Pass 22: total batches 5394
+Pass 22: elapsed time 32.18050241470337 s
+Pass 22: desired throughput 171.0 qps
+Pass 22: actual throughput 167.61702258369544 qps
+Pass 22: 25th-percentile 0.031548380851745605 s
+Pass 22: 50th-percentile 0.036019206047058105 s
+Pass 22: 75th-percentile 0.037533342838287354 s
+Pass 22: 95th-percentile 0.040811848640441885 s
+Pass 22: completed
+Pass 23: started
+Pass 23: total batches 5394
+Pass 23: elapsed time 32.00140070915222 s
+Pass 23: desired throughput 172.0 qps
+Pass 23: actual throughput 168.55512197806223 qps
+Pass 23: 25th-percentile 0.03187417984008789 s
+Pass 23: 50th-percentile 0.03613293170928955 s
+Pass 23: 75th-percentile 0.037814319133758545 s
+Pass 23: 95th-percentile 0.040964877605438224 s
+Pass 23: completed
+Pass 24: started
+Pass 24: total batches 5394
+Pass 24: elapsed time 31.839138746261597 s
+Pass 24: desired throughput 173.0 qps
+Pass 24: actual throughput 169.4141302937517 qps
+Pass 24: 25th-percentile 0.032334327697753906 s
+Pass 24: 50th-percentile 0.036539316177368164 s
+Pass 24: 75th-percentile 0.0382961630821228 s
+Pass 24: 95th-percentile 0.04123467206954956 s
+Pass 24: completed
+Pass 25: started
+Pass 25: total batches 5394
+Pass 25: elapsed time 31.67731499671936 s
+Pass 25: desired throughput 174.0 qps
+Pass 25: actual throughput 170.27958337247415 qps
+Pass 25: 25th-percentile 0.03249138593673706 s
+Pass 25: 50th-percentile 0.03683316707611084 s
+Pass 25: 75th-percentile 0.0384904146194458 s
+Pass 25: 95th-percentile 0.0422742486000061 s
+Pass 25: completed
+Pass 26: started
+Pass 26: total batches 5394
+Pass 26: elapsed time 31.464878797531128 s
+Pass 26: desired throughput 175.0 qps
+Pass 26: actual throughput 171.4292317700978 qps
+Pass 26: 25th-percentile 0.0328860878944397 s
+Pass 26: 50th-percentile 0.03716683387756348 s
+Pass 26: 75th-percentile 0.03885531425476074 s
+Pass 26: 95th-percentile 0.04273209571838378 s
+Pass 26: completed
+Pass 27: started
+Pass 27: total batches 5394
+Pass 27: elapsed time 31.25087022781372 s
+Pass 27: desired throughput 176.0 qps
+Pass 27: actual throughput 172.6031934688098 qps
+Pass 27: 25th-percentile 0.033723294734954834 s
+Pass 27: 50th-percentile 0.037648677825927734 s
+Pass 27: 75th-percentile 0.03972601890563965 s
+Pass 27: 95th-percentile 0.042937397956848145 s
+Pass 27: completed
+Pass 28: started
+Pass 28: total batches 5394
+Pass 28: elapsed time 31.10284399986267 s
+Pass 28: desired throughput 177.0 qps
+Pass 28: actual throughput 173.42465531524437 qps
+Pass 28: 25th-percentile 0.03436928987503052 s
+Pass 28: 50th-percentile 0.03822362422943115 s
+Pass 28: 75th-percentile 0.040235698223114014 s
+Pass 28: 95th-percentile 0.04320907592773437 s
+Pass 28: completed
+Pass 29: started
+Pass 29: total batches 5394
+Pass 29: elapsed time 31.00041890144348 s
+Pass 29: desired throughput 178.0 qps
+Pass 29: actual throughput 173.99764877850853 qps
+Pass 29: 25th-percentile 0.035219013690948486 s
+Pass 29: 50th-percentile 0.03886210918426514 s
+Pass 29: 75th-percentile 0.04105210304260254 s
+Pass 29: 95th-percentile 0.04383161067962645 s
+Pass 29: completed
+Pass 30: started
+Pass 30: total batches 5394
+Pass 30: elapsed time 30.77916979789734 s
+Pass 30: desired throughput 179.0 qps
+Pass 30: actual throughput 175.24839153941338 qps
+Pass 30: 25th-percentile 0.036047279834747314 s
+Pass 30: 50th-percentile 0.03953421115875244 s
+Pass 30: 75th-percentile 0.041822731494903564 s
+Pass 30: 95th-percentile 0.044862985610961914 s
+Pass 30: completed
+Pass 31: started
+Pass 31: total batches 5394
+Pass 31: elapsed time 30.622094869613647 s
+Pass 31: desired throughput 180.0 qps
+Pass 31: actual throughput 176.14732182651798 qps
+Pass 31: 25th-percentile 0.03676187992095947 s
+Pass 31: 50th-percentile 0.040381431579589844 s
+Pass 31: 75th-percentile 0.04256916046142578 s
+Pass 31: 95th-percentile 0.04613374471664428 s
+Pass 31: completed
+Pass 32: started
+Pass 32: total batches 5394
+Pass 32: elapsed time 30.456932306289673 s
+Pass 32: desired throughput 181.0 qps
+Pass 32: actual throughput 177.10253763430018 qps
+Pass 32: 25th-percentile 0.03777366876602173 s
+Pass 32: 50th-percentile 0.0409618616104126 s
+Pass 32: 75th-percentile 0.043624818325042725 s
+Pass 32: 95th-percentile 0.046179854869842524 s
+Pass 32: completed
+Pass 33: started
+Pass 33: total batches 5394
+Pass 33: elapsed time 30.275872707366943 s
+Pass 33: desired throughput 182.0 qps
+Pass 33: actual throughput 178.16166860443607 qps
+Pass 33: 25th-percentile 0.03862190246582031 s
+Pass 33: 50th-percentile 0.041614413261413574 s
+Pass 33: 75th-percentile 0.04436129331588745 s
+Pass 33: 95th-percentile 0.047062969207763664 s
+Pass 33: completed
+Pass 34: started
+Pass 34: total batches 5394
+Pass 34: elapsed time 30.109094381332397 s
+Pass 34: desired throughput 183.0 qps
+Pass 34: actual throughput 179.1485300648655 qps
+Pass 34: 25th-percentile 0.039532601833343506 s
+Pass 34: 50th-percentile 0.04232442378997803 s
+Pass 34: 75th-percentile 0.0451778769493103 s
+Pass 34: 95th-percentile 0.047529602050781244 s
+Pass 34: completed
+Pass 35: started
+Pass 35: total batches 5394
+Pass 35: elapsed time 29.99354100227356 s
+Pass 35: desired throughput 184.0 qps
+Pass 35: actual throughput 179.8387192626281 qps
+Pass 35: 25th-percentile 0.039466142654418945 s
+Pass 35: 50th-percentile 0.042096495628356934 s
+Pass 35: 75th-percentile 0.04509544372558594 s
+Pass 35: 95th-percentile 0.04713274240493774 s
+Pass 35: completed
+Pass 36: started
+Pass 36: total batches 5394
+Pass 36: elapsed time 29.783969402313232 s
+Pass 36: desired throughput 185.0 qps
+Pass 36: actual throughput 181.10413448051233 qps
+Pass 36: 25th-percentile 0.04011213779449463 s
+Pass 36: 50th-percentile 0.042954325675964355 s
+Pass 36: 75th-percentile 0.045800864696502686 s
+Pass 36: 95th-percentile 0.04818699359893799 s
+Pass 36: completed
+Pass 37: started
+Pass 37: total batches 5394
+Pass 37: elapsed time 29.62025785446167 s
+Pass 37: desired throughput 186.0 qps
+Pass 37: actual throughput 182.10509937162843 qps
+Pass 37: 25th-percentile 0.0405731201171875 s
+Pass 37: 50th-percentile 0.0431896448135376 s
+Pass 37: 75th-percentile 0.04623168706893921 s
+Pass 37: 95th-percentile 0.04840170145034789 s
+Pass 37: completed
+Pass 38: started
+Pass 38: total batches 5394
+Pass 38: elapsed time 29.487319707870483 s
+Pass 38: desired throughput 187.0 qps
+Pass 38: actual throughput 182.92608665141861 qps
+Pass 38: 25th-percentile 0.040679991245269775 s
+Pass 38: 50th-percentile 0.0433577299118042 s
+Pass 38: 75th-percentile 0.046395719051361084 s
+Pass 38: 95th-percentile 0.049076640605926515 s
+Pass 38: completed
+Pass 39: started
+Pass 39: total batches 5394
+Pass 39: elapsed time 29.361199855804443 s
+Pass 39: desired throughput 188.0 qps
+Pass 39: actual throughput 183.7118382930681 qps
+Pass 39: 25th-percentile 0.04093015193939209 s
+Pass 39: 50th-percentile 0.04356050491333008 s
+Pass 39: 75th-percentile 0.04668557643890381 s
+Pass 39: 95th-percentile 0.049209511280059806 s
+Pass 39: completed
+Pass 40: started
+Pass 40: total batches 5394
+Pass 40: elapsed time 29.222177982330322 s
+Pass 40: desired throughput 189.0 qps
+Pass 40: actual throughput 184.58583077762282 qps
+Pass 40: 25th-percentile 0.04171842336654663 s
+Pass 40: 50th-percentile 0.044550299644470215 s
+Pass 40: 75th-percentile 0.04752296209335327 s
+Pass 40: 95th-percentile 0.05097767114639282 s
+Pass 40: completed
+Pass 41: started
+Pass 41: total batches 5394
+Pass 41: elapsed time 29.02887988090515 s
+Pass 41: desired throughput 190.0 qps
+Pass 41: actual throughput 185.81495469785963 qps
+Pass 41: 25th-percentile 0.0417858362197876 s
+Pass 41: 50th-percentile 0.044832468032836914 s
+Pass 41: 75th-percentile 0.047681331634521484 s
+Pass 41: 95th-percentile 0.051075518131256104 s
+Pass 41: completed
+Pass 42: started
+Pass 42: total batches 5394
+Pass 42: elapsed time 28.87566304206848 s
+Pass 42: desired throughput 191.0 qps
+Pass 42: actual throughput 186.80090539017476 qps
+Pass 42: 25th-percentile 0.04166656732559204 s
+Pass 42: 50th-percentile 0.04471302032470703 s
+Pass 42: 75th-percentile 0.047773897647857666 s
+Pass 42: 95th-percentile 0.051562488079071045 s
+Pass 42: completed
+Pass 43: started
+Pass 43: total batches 5394
+Pass 43: elapsed time 28.721505403518677 s
+Pass 43: desired throughput 192.0 qps
+Pass 43: actual throughput 187.80352645927744 qps
+Pass 43: 25th-percentile 0.04225200414657593 s
+Pass 43: 50th-percentile 0.04521334171295166 s
+Pass 43: 75th-percentile 0.04826760292053223 s
+Pass 43: 95th-percentile 0.05174546241760254 s
+Pass 43: completed
+Pass 44: started
+Pass 44: total batches 5394
+Pass 44: elapsed time 28.57310390472412 s
+Pass 44: desired throughput 193.0 qps
+Pass 44: actual throughput 188.77893063302042 qps
+Pass 44: 25th-percentile 0.04265528917312622 s
+Pass 44: 50th-percentile 0.04570937156677246 s
+Pass 44: 75th-percentile 0.04874312877655029 s
+Pass 44: 95th-percentile 0.05247488021850586 s
+Pass 44: completed
+Pass 45: started
+Pass 45: total batches 5394
+Pass 45: elapsed time 28.435882091522217 s
+Pass 45: desired throughput 194.0 qps
+Pass 45: actual throughput 189.68991299932804 qps
+Pass 45: 25th-percentile 0.04302150011062622 s
+Pass 45: 50th-percentile 0.0462336540222168 s
+Pass 45: 75th-percentile 0.04915618896484375 s
+Pass 45: 95th-percentile 0.053147888183593735 s
+Pass 45: completed
+Pass 46: started
+Pass 46: total batches 5394
+Pass 46: elapsed time 28.31350588798523 s
+Pass 46: desired throughput 195.0 qps
+Pass 46: actual throughput 190.50978784965417 qps
+Pass 46: 25th-percentile 0.04260551929473877 s
+Pass 46: 50th-percentile 0.04580867290496826 s
+Pass 46: 75th-percentile 0.04884916543960571 s
+Pass 46: 95th-percentile 0.05302832126617431 s
+Pass 46: completed
+Pass 47: started
+Pass 47: total batches 5394
+Pass 47: elapsed time 28.135140895843506 s
+Pass 47: desired throughput 196.0 qps
+Pass 47: actual throughput 191.71753999628532 qps
+Pass 47: 25th-percentile 0.04325592517852783 s
+Pass 47: 50th-percentile 0.04649794101715088 s
+Pass 47: 75th-percentile 0.04947477579116821 s
+Pass 47: 95th-percentile 0.053935682773590087 s
+Pass 47: completed
+Pass 48: started
+Pass 48: total batches 5394
+Pass 48: elapsed time 27.99013113975525 s
+Pass 48: desired throughput 197.0 qps
+Pass 48: actual throughput 192.71077984835645 qps
+Pass 48: 25th-percentile 0.04335445165634155 s
+Pass 48: 50th-percentile 0.04657018184661865 s
+Pass 48: 75th-percentile 0.049674034118652344 s
+Pass 48: 95th-percentile 0.053913116455078125 s
+Pass 48: completed
+Pass 49: started
+Pass 49: total batches 5394
+Pass 49: elapsed time 27.87467932701111 s
+Pass 49: desired throughput 198.0 qps
+Pass 49: actual throughput 193.50895257737042 qps
+Pass 49: 25th-percentile 0.043250203132629395 s
+Pass 49: 50th-percentile 0.046628355979919434 s
+Pass 49: 75th-percentile 0.04979032278060913 s
+Pass 49: 95th-percentile 0.054440665245056155 s
+Pass 49: completed
+Pass 50: started
+Pass 50: total batches 5394
+Pass 50: elapsed time 27.752763271331787 s
+Pass 50: desired throughput 199.0 qps
+Pass 50: actual throughput 194.35902462267336 qps
+Pass 50: 25th-percentile 0.04314625263214111 s
+Pass 50: 50th-percentile 0.04630601406097412 s
+Pass 50: 75th-percentile 0.049581825733184814 s
+Pass 50: 95th-percentile 0.053649818897247306 s
+Pass 50: completed
+Pass 51: started
+Pass 51: total batches 5394
+Pass 51: elapsed time 27.67343521118164 s
+Pass 51: desired throughput 200.0 qps
+Pass 51: actual throughput 194.91616992387404 qps
+Pass 51: 25th-percentile 0.04380369186401367 s
+Pass 51: 50th-percentile 0.04710376262664795 s
+Pass 51: 75th-percentile 0.050370097160339355 s
+Pass 51: 95th-percentile 0.05425462722778319 s
+Pass 51: completed
+Pass 52: started
+Pass 52: total batches 5394
+Pass 52: elapsed time 27.463624238967896 s
+Pass 52: desired throughput 201.0 qps
+Pass 52: actual throughput 196.4052505621782 qps
+Pass 52: 25th-percentile 0.0433659553527832 s
+Pass 52: 50th-percentile 0.0468364953994751 s
+Pass 52: 75th-percentile 0.05024462938308716 s
+Pass 52: 95th-percentile 0.05486565828323363 s
+Pass 52: completed
+Pass 53: started
+Pass 53: total batches 5394
+Pass 53: elapsed time 27.3347384929657 s
+Pass 53: desired throughput 202.0 qps
+Pass 53: actual throughput 197.33131895108812 qps
+Pass 53: 25th-percentile 0.04383039474487305 s
+Pass 53: 50th-percentile 0.04721724987030029 s
+Pass 53: 75th-percentile 0.0506252646446228 s
+Pass 53: 95th-percentile 0.05525139570236205 s
+Pass 53: completed
+Pass 54: started
+Pass 54: total batches 5394
+Pass 54: elapsed time 27.19195818901062 s
+Pass 54: desired throughput 203.0 qps
+Pass 54: actual throughput 198.36747182775295 qps
+Pass 54: 25th-percentile 0.04411959648132324 s
+Pass 54: 50th-percentile 0.04748344421386719 s
+Pass 54: 75th-percentile 0.05097728967666626 s
+Pass 54: 95th-percentile 0.055173945426940915 s
+Pass 54: completed
