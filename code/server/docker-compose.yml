@@ -1,0 +1,43 @@
+version: '2.3'
+services:
+  nodeexporter:
+    image: prom/node-exporter:v0.18.1
+    container_name: nodeexporter
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.rootfs=/rootfs'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc)($$|/)'
+    restart: unless-stopped
+    network_mode: host
+  cadvisor:
+    image: google/cadvisor:v0.33.0
+    container_name: cadvisor
+    privileged: true
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /cgroup:/cgroup:ro # Comment if not on Linux
+    restart: unless-stopped
+    network_mode: host
+  inference_server:
+    image: nvcr.io/nvidia/tensorrtserver:19.08-py3
+    container_name: tensorrtserver
+    runtime: nvidia # Uncomment if running on GPU
+    volumes:
+      - /home/mplemay97/server/model_repository:/models
+    command: ["trtserver", "--model-store=/models", "--allow-metrics=true", "--strict-model-config=false"]
+    shm_size: 1g
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    network_mode: host
+
+# Standalone run command for inference server
+# sudo docker run --rm --shm-size=1g --ulimit memlock=-1 --ulimit stack=67108864 -p8000:8000 -p8001:8001 -p8002:8002 -v/home/mplemay97/tensorrt-inference-server/docs/examples/model_repository:/models nvcr.io/nvidia/tensorrtserver:19.07-py3 trtserver --strict-model-config=false --model-store=/models --allow-metrics=true

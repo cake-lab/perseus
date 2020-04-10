@@ -23,11 +23,22 @@ In this paper, we looked at the problem of efficiency and cost saving deep learn
 
 ## How to use the code
 
-In construction.
+Please see the instructions in the individual modules in `code` folder.
 
 ## Citation
 
 If you would like to cite the paper, please cite it as:
+
+```bibtex
+@article{lemay2019perseus,
+    title={Perseus: Characterizing Performance and Cost of Multi-Tenant Serving for CNN Models},
+    author={Matthew LeMay and Shijian Li and Tian Guo},
+    year={2019},
+    eprint={1912.02322},
+    archivePrefix={arXiv},
+    primaryClass={cs.DC}
+}
+```
 
 ## Acknowledgement
 
