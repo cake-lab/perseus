@@ -1,4 +1,4 @@
-grpcio==1.22.0
+grpcio==1.53.0
 numpy==1.21.0
 Pillow==9.0.1
 six==1.12.0
